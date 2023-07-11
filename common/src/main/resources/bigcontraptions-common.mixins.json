@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.kryeit.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "client": [
+    "CompressionDecoderMixin",
+    "PacketInflaterMixin",
+    "SCustomPayloadPacketMixin"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
