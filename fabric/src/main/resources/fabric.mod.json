@@ -16,7 +16,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.bigcontraptions.fabric.MainFabric"
+      "com.kryeit.bigcontraptions.fabric.MainFabric"
     ]
   },
   "mixins": [

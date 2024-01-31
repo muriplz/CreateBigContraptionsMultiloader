@@ -1,4 +1,4 @@
-package net.bigcontraptions;
+package com.kryeit.bigcontraptions;
 
 public class Main {
     public static final String MOD_ID = "bigcontraptions";

@@ -1,6 +1,6 @@
-package net.bigcontraptions.fabric;
+package com.kryeit.bigcontraptions.fabric;
 
-import net.bigcontraptions.Main;
+import com.kryeit.bigcontraptions.Main;
 import net.fabricmc.api.ModInitializer;
 
 public class MainFabric implements ModInitializer {
