@@ -1,7 +1,7 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[2,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "MIT"
 
 [[mods]]
 modId = "bigcontraptions"
@@ -9,20 +9,23 @@ version = "${version}"
 displayName = "Create: Big Contraptions"
 authors = "MuriPlz"
 description = '''
-Increases NBT size limit (2MB -> 10MB) in your playerdata
+Render and hold big contraptions
 '''
 #logoFile = ""
 
 [[dependencies.bigcontraptions]]
-modId = "forge"
-mandatory = true
-versionRange = "[47,)"
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.bigcontraptions]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.20.1,)"
+type = "required"
+versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[mixins]]
+config = "bigcontraptions.mixins.json"

@@ -1,9 +1,9 @@
 package com.kryeit.bigcontraptions;
 
-public class Main {
+public final class BigContraptions {
     public static final String MOD_ID = "bigcontraptions";
 
     public static void init() {
-
+        // Write common init code here.
     }
 }

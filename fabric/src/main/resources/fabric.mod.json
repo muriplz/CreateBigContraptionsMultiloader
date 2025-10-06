@@ -3,28 +3,28 @@
   "id": "bigcontraptions",
   "version": "${version}",
   "name": "Create: Big Contraptions",
-  "description": "Increases NBT size limit (2MB -> 10MB) in your playerdataIncreases NBT size limit (2MB -> 10MB) in your playerdata",
+  "description": "Render and hold big contraptions",
   "authors": [
     "MuriPlz"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/muriplz/CreateBigContraptionsMultiloader"
+    "homepage": ""
   },
   "license": "MIT",
   "icon": "assets/bigcontraptions/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.kryeit.bigcontraptions.fabric.MainFabric"
+      "com.kryeit.bigcontraptions.fabric.BigContraptionsFabric"
     ]
   },
   "mixins": [
-    "bigcontraptions.mixins.json",
-    "bigcontraptions-common.mixins.json"
+    "bigcontraptions.mixins.json"
   ],
   "depends": {
-    "fabric": "*",
-    "minecraft": "1.20.1"
+    "fabricloader": ">=0.17.2",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
   }
 }
